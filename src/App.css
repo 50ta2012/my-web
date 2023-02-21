@@ -1,8 +1,16 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.layout{
+  display: grid;
+  grid-template-rows: auto  auto auto;
+}
+
+.header-grid{
+  display: grid;
+  grid-template-columns: max-content max-content auto;
+}
+
+.header-grid > div:nth-child(2){
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -31,12 +39,4 @@
   a:nth-of-type(1) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
