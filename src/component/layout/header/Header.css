@@ -1,12 +1,5 @@
 .header-grid{
   display: grid;
-  grid-template-columns: max-content auto;
-}
-
-.logo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 4rem;
-  background-color: tomato;
+  grid-template-columns: 10rem auto 10rem;
+  background-color: #202020;
 }
